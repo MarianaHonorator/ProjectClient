@@ -9,6 +9,8 @@ public class clienteTest {
 		
 	compra1.AdicionarItens("Caneta", 9.67, 100);
 	compra1.AdicionarItens("Notebook", 1897.88, 2);
+	
+	System.out.println("O valor total da compra de " + cliente.nome + " foi de R$" + compra1.valortotal());
 
 		
 	}
